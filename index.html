@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form id="frm" action="#" method="get">
+            <button type="submit" id="send">Submit</button>
+        </form>
+    
+        First : <br>
+        <input type="text" id="first"> <br>
+        Last : <br>
+        <input type="text" id="last"> <br>
+        Age : <br>
+        <input type="number" id="age"> <br>
+        
+    
+    
+    <script>
+     var sendBtn = document.getElementById('send');  
+     var frm = document.getElementById('frm'); 
+     console.log();
+      
+     sendBtn.addEventListener('submit', 
+     function (e) {
+         console.log(frm);
+         
+     })
+    //  var xhr = new XMLHttpRequest();
+    //     var url = "http://https://api.github.com/users";
+    //     xhr.open("GET", 'https://api.github.com/users');          
+    //     xhr.onreadystatechange = function () {
+    //         if (xhr.readyState === 4 && xhr.status === 200) {
+    //             var json = JSON.parse(xhr.responseText);                                                
+    //             console.log(json);
+                
+    //         }
+    //     };
+    //     xhr.onload = function () {
+    //         if (this.status == 200) {
+    //             console.log(this.responseText);
+                
+    //         }
+    //     }
+    //     xhr.send();
+    // const api_url = 'http://localhost:8085/test/1';
+    // async function getUser() {
+    //     const response = await fetch(api_url);
+    //     const data = response.json();
+    //     console.log(data);
+        
+    // }
+
+    // getUser();
+    </script>
+</body>
+</html>
